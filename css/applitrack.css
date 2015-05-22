@@ -1,0 +1,194 @@
+
+.fl-setwidth {
+  width: auto;
+}
+.fl-body-header .fl-productheader {
+  height: 100px;
+  box-shadow: inset 0 0 2px 2px #999;
+  overflow: hidden;
+}
+.fl-body-header .fl-productheader .fl-darkgradient {
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.5)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=0);
+  /* IE6-9 */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.fl-body-header .fl-productheader .fl-pageheader img {
+  margin-top: 20px;
+  height: 30px;
+}
+.fl-body-header .fl-productheader .fl-pageheader .fl-schooldistrict {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 24px;
+  color: #fff;
+  opacity: .7;
+  font-size: 22px;
+  margin-left: 5px;
+  letter-spacing: -0.02em;
+}
+.fl-body-header .fl-productheader .fl-pageheader .search {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  text-align: right;
+}
+.fl-body-header .fl-productheader .fl-navrow {
+  background: none;
+  border: none;
+  height: 50px;
+}
+.fl-body-header .fl-productheader .fl-navrow ul.fl-maintabs {
+  padding-top: 15px;
+}
+.fl-body-header .fl-productheader .fl-navrow ul.fl-maintabs li {
+  background: rgba(255, 255, 255, 0.2);
+  border-top: none;
+  border-radius: 8px 8px 0 0;
+  padding: 0 15px;
+}
+.fl-body-header .fl-productheader .fl-navrow ul.fl-maintabs li a {
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 0;
+  display: inline-block;
+  line-height: 34px;
+}
+.fl-body-header .fl-productheader .fl-navrow ul.fl-maintabs li a span:hover {
+  text-decoration: underline;
+}
+.fl-body-header .fl-productheader .fl-navrow ul.fl-maintabs li i.fa-times {
+  margin-left: 5px;
+  line-height: 34px;
+  vertical-align: top;
+  color: #fff;
+  opacity: .3;
+  cursor: pointer;
+}
+.fl-body-header .fl-productheader .fl-navrow ul.fl-maintabs li i.fa-times:hover {
+  opacity: .6;
+}
+.fl-body-header .fl-productheader .fl-navrow ul.fl-maintabs li.active {
+  background: #f5f5f1;
+}
+.fl-body-header .fl-productheader .fl-navrow ul.fl-maintabs li.active a {
+  background: none;
+  border: none;
+  line-height: 35px;
+}
+.fl-body-header .fl-productheader .fl-navrow ul.fl-maintabs li.active i.fa-times {
+  color: #333;
+  line-height: 35px;
+}
+.swatch01 .custom-bg {
+  background-color: #0095da;
+  background-image: none;
+}
+.swatch01 .custom-color,
+.swatch01 .active a span {
+  color: #0095da;
+}
+.swatch02 .custom-bg {
+  background-color: #003366;
+  background-image: none;
+}
+.swatch02 .custom-color,
+.swatch02 .active a span {
+  color: #003366;
+}
+.swatch03 .custom-bg {
+  background-color: #3f4c6b;
+  background-image: none;
+}
+.swatch03 .custom-color,
+.swatch03 .active a span {
+  color: #3f4c6b;
+}
+.swatch04 .custom-bg {
+  background-color: #d15600;
+  background-image: none;
+}
+.swatch04 .custom-color,
+.swatch04 .active a span {
+  color: #d15600;
+}
+.swatch05 .custom-bg {
+  background-color: #a23512;
+  background-image: none;
+}
+.swatch05 .custom-color,
+.swatch05 .active a span {
+  color: #a23512;
+}
+.swatch06 .custom-bg {
+  background-color: #91802f;
+  background-image: none;
+}
+.swatch06 .custom-color,
+.swatch06 .active a span {
+  color: #91802f;
+}
+.swatch07 .custom-bg {
+  background-color: #655345;
+  background-image: none;
+}
+.swatch07 .custom-color,
+.swatch07 .active a span {
+  color: #655345;
+}
+.swatch08 .custom-bg {
+  background-color: #284907;
+  background-image: none;
+}
+.swatch08 .custom-color,
+.swatch08 .active a span {
+  color: #284907;
+}
+.swatch09 .custom-bg {
+  background-color: #8d4c87;
+  background-image: none;
+}
+.swatch09 .custom-color,
+.swatch09 .active a span {
+  color: #8d4c87;
+}
+.swatch10 .custom-bg {
+  background-color: #b02c2b;
+  background-image: none;
+}
+.swatch10 .custom-color,
+.swatch10 .active a span {
+  color: #b02c2b;
+}
+.swatch11 .custom-bg {
+  background-color: #d01f3c;
+  background-image: none;
+}
+.swatch11 .custom-color,
+.swatch11 .active a span {
+  color: #d01f3c;
+}
+.swatch12 .custom-bg {
+  background-color: #663333;
+  background-image: none;
+}
+.swatch12 .custom-color,
+.swatch12 .active a span {
+  color: #663333;
+}

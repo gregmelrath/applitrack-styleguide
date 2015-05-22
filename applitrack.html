@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html class="open-sans">
+<head>
+	<title>Form Styles - Applitrack</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
+	
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/applitrack-greg.css" />
+
+	<style>
+	</style>
+
+</head>
+<body>
+	<div id="styleHead">
+    	<h3>AppliTrack UI Patterns</h3>
+        <ul class="styleNav">
+        	<li><a href="#applitrackButtons">Buttons</a></li>
+            <li><a href="#applitrackFormFields">Form Fields</a></li>
+        </ul>
+    </div>
+
+	<div id="applitrackButtons" class="container">
+		
+        <h3 class="sectionHead">BUTTONS</h3>
+        <span class="toTop"><a href="#styleHead"><span class="fa fa-caret-up"> Back to Top</span></a></span>
+        
+        <hr>
+            <label class="caption">Button Basics</label>
+            <a class="fl-button">Standard</a>
+            <a class="fl-button fl-standard-2">Standard 2</a>
+            <a class="fl-button fl-positive">Positive</a>
+            <a class="fl-button fl-negative">Negative</a>
+		
+        <hr>
+            <label class="caption">Button Basics - Disabled</label>
+            <a class="fl-button fl-disabled">Standard</a>
+            <a class="fl-button fl-standard-2 fl-disabled">Standard 2</a>
+            <a class="fl-button fl-positive fl-disabled">Positive</a>
+            <a class="fl-button fl-negative fl-disabled">Negative</a>
+           
+		<hr>
+            <label class="caption">Button - Small</label>
+            <a class="fl-button-sm">Small Button</a>
+
+		<hr>
+            <label class="caption">Button - Large</label>
+            <a class="fl-button-lg">Large Button</a>
+                                
+        <hr>
+            <label class="caption">Button w/ Icon</label>
+            <a class="fl-button">
+                <span class="fl-label fa fa-gear-before">Icon Before</span>
+            </a>
+            <a class="fl-button">
+				<span class="fl-label fa fa-chevron-right-after">Icon After</span>
+			</a>
+            
+        <hr>
+        <label class="caption">Button w/ Icon - Small</label>
+        <a class="fl-button-sm">
+			<span class="fl-label fa fa-gear-before">Icon Before</span>
+		</a>
+        <a class="fl-button-sm">
+			<span class="fl-label fa fa-chevron-right-after">Icon After</span>
+		</a>
+        
+        <hr>
+        <label class="caption">Icon-Only Buttons</label>
+        <a class="fl-button fa fa-gear"></a>	
+        
+        <hr>
+        <label class="caption">Menu Button</label>
+        <a class="fl-button">
+			<span class="fl-label fa fa-caret-down-after">Choose</span>
+		</a>	
+        
+        <hr>
+        <label class="caption">Menu Button Dropdown</label>
+        <div class="fl-button-menu">
+            <ul>
+                <li><a>Option 1</a></li>
+                <li><a>Option 2</a></li>
+                <li><a>Option 3</a></li>
+            </ul>
+        </div>
+        
+        <hr>
+        <label class="caption">Menu Button Dropdown w/ Pre-Selected Option</label>
+        <div class="fl-button-menu">
+            <ul>
+                <li><a class="fa fa-check-after">Option 1</a></li>
+                <li class="selected"><a class="fa fa-check-after">Option 2</a></li>
+                <li><a class="fa fa-check-after">Option 3</a></li>
+            </ul>
+        </div>
+        
+	</div>
+
+    <div id="applitrackFormFields" class="container">
+		<h3 class="sectionHead">FORM FIELDS</h3>
+        <span class="toTop"><a href="#styleHead"><span class="fa fa-caret-up"> Back to Top</span></a></span>
+        <hr>
+        <label class="caption">Text Input</label>
+        <input type="text" class="fl-input" placeholder="Standard Textbox" />
+        
+        <hr>
+        <label class="caption">Text Input - Disabled</label>
+        <input type="text" class="fl-input fl-disabled" disabled="disabled" placeholder="Disabled Textbox"/>
+        
+        <hr>
+        <label class="caption">Text Input w/ Help Text Below</label>
+        <input type="text" class="fl-input" placeholder="Standard Textbox"/>
+		<span class="fl-input-help">Help Text</span>
+        
+        <hr>
+        <label class="caption">Text Input - Success</label>
+        <input type="text" class="fl-input success" value="Allowed Input" />
+        
+        <hr>
+        <label class="caption">Text Input - Error</label>
+        <input type="text" class="fl-input error" value="Error on Input" />
+ 
+	</div>
+    
+    
+</body>
+</html>
