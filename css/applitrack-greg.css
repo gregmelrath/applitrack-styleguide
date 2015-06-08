@@ -551,91 +551,26 @@ input::-ms-reveal {
   color: #444444;
 }
 
-
-/* Shared Radio/Checkbox Styles */
-.fl-cb label,
-.fl-radio label {
-  display: block;
-  cursor: pointer;
-  position: relative;
-  padding-left: 20px;
-  margin-right: 20px;
-  font-size: 13px;
-  color: #444444;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-.fl-cb label:before,
-.fl-radio label:before {
-  display: inline-block;
-  margin-right: 10px;
-  position: absolute;
-  left: 0;
-  bottom: 4px;
-}
-.fl-cb label + input + label,
-.fl-radio label + input + label {
-  margin-top: 4px;
-}
-.fl-cb span,
-.fl-radio span {
-  font-size: 11px;
-  margin-left: 24px;
-  display: block;
-  color: #72818e;
-  max-width: 450px;
-}
-.fl-cb span + input + label,
-.fl-radio span + input + label {
-  margin-top: 15px;
-}
-.fl-cb input:disabled + label,
-.fl-radio input:disabled + label {
-  opacity: .5;
-}
-.fl-cb input:disabled + label:before,
-.fl-radio input:disabled + label:before {
-  opacity: .5;
-}
-.fl-cb input:disabled + label + span,
-.fl-radio input:disabled + label + span {
-  opacity: .5;
-}
-.fl-cb .fl-cb,
-.fl-radio .fl-cb,
-.fl-cb .fl-radio,
-.fl-radio .fl-radio {
-  margin-left: 24px;
-  margin-top: 7px;
-}
-.fl-cb .fl-cb + input + label,
-.fl-radio .fl-cb + input + label,
-.fl-cb .fl-radio + input + label,
-.fl-radio .fl-radio + input + label {
-  margin-top: 15px;
-}
 /* Styled Checkbox Groups */
-.fl-cb input {
-  display: none;
-}
+
 .fl-cb label:before {
-  font-family: 'FL-Icons';
-  content: "";
-  width: 16px;
-  height: 16px;
-  font-size: 10px;
   color: #444444;
-  background: white;
-  border: 1px solid #bbbbbb;
-  transition: font-size 60ms;
+  border: 1px solid #444444;
 }
 .fl-cb input:checked + label:before {
-  content: '\f00c';
   font-size: 14px;
   text-align: center;
   line-height: 14px;
 }  
+
+
+/* Styled Radio Groups */
+
+fl-radio label:before {
+  color: #444444;
+  box-shadow: 0 0 0 1px #444444;
+}
+.fl-radio input:checked + label:before {
+  background: #444444;
+  box-shadow: 0 0 0 1px #444444;
+}
